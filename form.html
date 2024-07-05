@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    
+    <form action="processing-form.html" method="POST">
+        <h1>Create a new account</h1>
+
+        <p>
+            <input type="text" name="firstname" id="First" placeholder="First Name">
+            <input type="text" name="lastname" id="Last" placeholder="Last Name">
+        </p>
+        
+        <p>
+            <label for="Dob">Birthday:</label>
+            <input type="date" name="birthday" id="Dob">
+        </p>
+        <p>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="Male" id="gender">He/Him 
+            <input type="radio" name="Female" id="gender">She/Her
+        </p>
+        <p>
+            <input type="email" name="email" id="mail" placeholder="Email">
+            <input type="password" name="password" id="pw" placeholder="Password">
+        </p>
+        <input type="submit" name="regist" id="regist" value="Register">
+        <input type="reset" name="reset" id="reset" value="Reset">
+    </form>
+
+    <br><br><br><br><br><br>
+
+    <form action="" method="POST">
+        <p>
+            <label for="name">Username:</label>
+            <input type="text" name="username" id="name" placeholder=" Your Username">
+        </p>
+        
+        <p>
+            <label for="pw">Password:</label>
+            <input type="password" name="password" id="pw" >
+        </p>
+        <input type="submit" name="submit" id="submit" value="Sign Up">
+    </form>
+
+    <br><br><br><br><br><br>
+
+    <form action="" method="POST">
+        <h1>Status</h1>
+        <p>
+        <label for="status">My status:</label>
+        </p>
+        <textarea name="" id="status" rows="7" cols="40" placeholder="What 's on your mind ?"></textarea>
+
+        <p>
+        <input type="submit" name="submit" id="submit" value="Send">
+
+        </p>
+    </form>
+
+    <br><br><br><br><br><br>
+
+    <form action="https://www.google.com/search" method="get">
+        <h1>?</h1>
+        <input type="text" name="hahaha" id="" placeholder="Enter your keyword">
+        <input type="submit" value="Search" name="" id="">
+    </form>
+
+    
+    
+</body>
+</html>
