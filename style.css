@@ -1,0 +1,15 @@
+li {
+    color: blue;
+}
+
+.done {
+    color: grey;
+}
+button {
+    cursor: pointer;
+}
+
+#clear {
+    color: white;
+    background-color: red;
+}
